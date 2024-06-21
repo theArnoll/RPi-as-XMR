@@ -17,25 +17,12 @@ echo Sleep 5 seconds to test now.
 echo
 echo
 echo > 
-sleep 5
-
-echo
-echo Wifi config now
-sleep 1
-sudo nano /etc/netplan/50-cloud-init.yaml
-sudo netplan --debug try
-sudo netplan --debug generate
-sudo netplan --debug apply
-echo 
-echo ########################
-echo # WiFi may OK now.     #
-echo # "sudo reboot" later. #
-echo ########################
+sleep 5 	
 
 echo
 echo
-echo XMRIG
-echo install now
+echo XMRIG install in 
+echo current folder/dictionary now
 echo
 echo
 sleep 1
